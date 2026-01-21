@@ -90,3 +90,5 @@ class Unfolding:
             phi = new_phi
             print(f"Chi-squared is: {chi_2_red}")
             print(f"Number of iterations is: {i+1}")
+        self.phi = phi
+        return phi

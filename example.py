@@ -15,7 +15,7 @@ N = np.array([1200, 800])
 prior = np.ones(R.shape[1])
 
 test = Unfolding(R, N)
-result = result.gravel(prior)
+result = test.gravel(prior)
 
 print("Unfolded spectrum:")
 print(result)
