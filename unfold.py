@@ -90,11 +90,3 @@ class Unfolding:
             phi = new_phi
             print(f"Chi-squared is: {chi_2_red}")
             print(f"Number of iterations is: {i+1}")
-
-R = np.array([[0.2, 1.0, 0.1],
-              [1.0, 0.3, 0.2],
-              [0.1, 0.2, 1.2]])
-measured = np.arange(1.5, 7.5, 2)
-prior = np.ones(3)
-test = Unfolding(R, measured)
-test.gravel(prior)
