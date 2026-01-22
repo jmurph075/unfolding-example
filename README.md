@@ -9,8 +9,10 @@ from the literature (e.g. GRAVEL, MAXED).
 - `example.py` - a simple runnable example using synthetic data for demonstrative purposes
 
 ## Requirements
+
 ```bash
 pip install -r requirements.txt 
+```
 
 ## Run 
 
@@ -18,6 +20,7 @@ After installing dependencies, run:
 
 ```bash
 python example.py
+```
 
 This will generate a toy response matrix and detector measurement,
 then it employs the unfolding algorithm with a flat prior spectrum and prints the unfolded result
